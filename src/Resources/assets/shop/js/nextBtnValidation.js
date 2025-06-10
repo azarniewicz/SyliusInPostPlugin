@@ -1,7 +1,7 @@
 import {DEFAULT_SELECTORS} from '../../common/js/geowidget/config';
 
 export class ValidateNextBtn {
-    constructor({nodeSelector = '#next-step', node}) {
+    constructor({nodeSelector = '[data-test-next-step]', node}) {
         this.submit = document.querySelector(nodeSelector);
         this.input = node;
         this.previewSelector = DEFAULT_SELECTORS.preview;
