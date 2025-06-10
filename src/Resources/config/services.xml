@@ -39,7 +39,7 @@
                 class="BitBag\SyliusInPostPlugin\EventListener\ImageUploadListener"
                 id="bitbag.sylius_inpost_plugin.event_listener.image_upload_listener"
         >
-            <argument type="service" id="sylius.image_uploader" />
+            <argument type="service" id="sylius.uploader.image" />
             <tag name="kernel.event_listener" event="sylius.shipping_method.pre_create" method="uploadImages" />
             <tag name="kernel.event_listener" event="sylius.shipping_method.pre_update" method="uploadImages" />
         </service>

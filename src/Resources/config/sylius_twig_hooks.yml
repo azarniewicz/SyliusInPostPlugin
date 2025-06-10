@@ -10,7 +10,7 @@ sylius_twig_hooks:
                 template: '@BitBagSyliusInPostPlugin/Shop/_scripts.html.twig'
                 priority: 0
 
-        # Shop checkout customization (uses the hook name directly from the template)
+        # Shop checkout customization
         'sylius_shop.checkout.select_shipping.before_form':
             bitbag_inpost_geowidget:
                 template: '@BitBagSyliusInPostPlugin/InPostGeowidgetAssets.html.twig'
@@ -26,7 +26,7 @@ sylius_twig_hooks:
                 template: '@BitBagSyliusInPostPlugin/Admin/_scripts.html.twig'
                 priority: 0
 
-        # Admin order show customization (uses the hook name directly from the template)
+        # Admin order show customization
         'sylius_admin.order.show.sidebar':
             bitbag_inpost_geowidget:
                 template: '@BitBagSyliusInPostPlugin/InPostGeowidgetAssets.html.twig'
