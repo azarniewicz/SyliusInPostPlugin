@@ -7,7 +7,7 @@ parameters:
 imports:
     - { resource: "@BitBagSyliusInPostPlugin/Resources/config/services.xml" }
     - { resource: "@BitBagSyliusInPostPlugin/Resources/config/resource/bitbag_inpost.yml" }
-    - { resource: "@BitBagSyliusInPostPlugin/Resources/config/sylius_ui.yml" }
+    - { resource: "@BitBagSyliusInPostPlugin/Resources/config/sylius_twig_hooks.yml" }
     - { resource: "@BitBagSyliusInPostPlugin/Resources/config/grid/*" }
 
 twig:
